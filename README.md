@@ -36,69 +36,69 @@ python3 expense_tracker.py
 ## Structure
 
 expense-tracker/
-├── expense_tracker.py    # Main application
-├── expenses.db          # SQLite database (created automatically)
-├── README.md            # This file
-└── DESIGN.md            # Project design document
+├── expense_tracker.py    # Main application  
+├── expenses.db          # SQLite database (created automatically)  
+├── README.md            # This file  
+└── DESIGN.md            # Project design document  
 
 ## Code Architecture
 
 ### Expense Database Class
-Handles all database operations:
-∙ CRUD operations (Create, Read, Update, Delete)
-∙ SQL queries
+Handles all database operations:  
+∙ CRUD operations (Create, Read, Update, Delete)  
+∙ SQL queries  
 ∙ Returns pandas DataFrames for analysis
 
 ### ExpenseAnalyzer Class
-Performs data analysis using pandas:
-∙ Aggregations and grouping
-∙ Statistical calculations
-∙ Pattern detection
+Performs data analysis using pandas:  
+∙ Aggregations and grouping  
+∙ Statistical calculations  
+∙ Pattern detection  
 ∙ Trend analysis
 
 ### ExpenseTrackerUI Class
-User interface and user experience:
-∙ Interactive menu system
-∙ Input validation
-∙ Formatted output
+User interface and user experience:  
+∙ Interactive menu system  
+∙ Input validation  
+∙ Formatted output  
 ∙ Error handling
 
 ### Sample Analytics
-The dashboard provides insights such as:
-∙ “Most frequent expense category: Food & Dining”
-∙ “Highest spending category: Bills & Utilities ($200.00)”
-∙ “Average daily spending: $35.67”
-∙ Category breakdowns with percentages
+The dashboard provides insights such as:  
+∙ “Most frequent expense category: Food & Dining”  
+∙ “Highest spending category: Bills & Utilities ($200.00)”  
+∙ “Average daily spending: $35.67”  
+∙ Category breakdowns with percentages  
 ∙ Payment method preferences
 
 ## Demonstrated
 
 ### Data Engineering
-∙ Database design and schema creation
-∙ SQL queries for data retrieval
-∙ ETL pipeline (Extract from DB → Transform with pandas → Load insights)
+∙ Database design and schema creation  
+∙ SQL queries for data retrieval  
+∙ ETL pipeline (Extract from DB → Transform with pandas → Load insights)  
 ∙ Data persistence and integrity
 
 ### Data Analysis
-∙ Pandas DataFrames and Series
-∙ GroupBy operations
-∙ Aggregate functions (sum, mean, count, max, min)
-∙ Time series analysis (monthly trends)
-∙ Pattern recognition
+∙ Pandas DataFrames and Series  
+∙ GroupBy operations  
+∙ Aggregate functions (sum, mean, count, max, min)  
+∙ Time series analysis (monthly trends)  
+∙ Pattern recognition  
 ∙ Statistical summaries
 
 ### Software Development
-∙ Object-Oriented Programming
-∙ Class design and encapsulation
-∙ Input validation and error handling
-∙ User interface design
+∙ Object-Oriented Programming  
+∙ Class design and encapsulation  
+∙ Input validation and error handling  
+∙ User interface design  
 ∙ Code organization and documentation
 
 ### Future Enhancements
-∙ Budget tracking and warnings
-∙ Data visualization (charts and graphs)
-∙ Export to CSV/Excel
-∙ Recurring expense tracking
-∙ Multi-user support
-∙ Web interface
+∙ Budget tracking and warnings  
+∙ Data visualization (charts and graphs)  
+∙ Export to CSV/Excel  
+∙ Recurring expense tracking  
+∙ Multi-user support  
+∙ Web interface  
 ∙ Mobile app
