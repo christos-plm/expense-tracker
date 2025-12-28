@@ -31,7 +31,6 @@ A command-line application for tracking personal expenses with powerful analytic
 
 ## How to Run
 
-```bash
 python3 expense_tracker.py
 
 ## Structure
