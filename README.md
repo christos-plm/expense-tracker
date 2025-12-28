@@ -35,11 +35,11 @@ python3 expense_tracker.py
 
 ## Structure
 
-expense-tracker/
-├── expense_tracker.py    # Main application  
-├── expenses.db          # SQLite database (created automatically)  
-├── README.md            # This file  
-└── DESIGN.md            # Project design document  
+expense-tracker/  
+├── expense_tracker.py     # Main application  
+├── expenses.db            # SQLite database (created automatically)  
+├── README.md              # This file  
+└── DESIGN.md              # Project design document  
 
 ## Code Architecture
 
